@@ -1,0 +1,199 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+header {
+    display: flex;
+    justify-content: space-around;
+    width: 100wh;
+    height: 40px;
+    background-color: #EDD2C7;
+    padding-top: 7px;
+}
+.menu {
+    width: 22px;
+    height: 22px;
+}
+.account {
+    width: 27px;
+    height: 25px;
+}
+header a {
+    margin-right: 55px;
+    color:white;
+    font-family: 'EB Garamond', serif;
+    font-size: 18px;
+}
+
+.first {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: #FEFCEF;
+}
+h1 {
+    color: #FF6089; 
+    font-size: 33px;
+    font-family: 'EB Garamond', serif;
+    width: 326px;
+    margin-bottom: 20px;
+}
+.signUp {
+    width: 140px;
+    height: 45px;
+    border-radius: 15px;
+    background: #D9D9D9;
+    color: #FF6089; 
+    border: none;
+    cursor: pointer;
+    font-style: bold;
+    font-family: 'EB Garamond', serif;
+}
+.mainTexts {
+    position: absolute;
+    margin-left: 20px;
+}
+.purpose {
+    width: 390px;
+    font-family: 'EB Garamond', serif;
+    color: rgb(120, 116, 116); 
+    background-color: #D9D9D9;
+    padding: 15px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+
+}
+
+
+#aboutUs{
+    background: #FEFCEF;
+    display: flex;
+    flex-direction: column;
+    /* font-size: 50px; */
+    font-family: 'EB Garamond', serif;
+    padding-bottom: 100px;
+    /* justify-content: ; */
+    align-items: center;
+
+}
+.aboutContainer {
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 20px 0px 20px;
+    width: -webkit-fill-available;
+}
+.about1, .about2 {
+    width: 378px;
+    height: fit-content;
+    background-color: #D9D9D9;
+    padding: 50px;
+    border-radius: 101px 0px;
+    font-family: 'EB Garamond', serif;
+
+}
+.about1 h3, .about2 h3 {
+    margin-bottom: 10px;
+    font-family: 'EB Garamond', serif;
+
+}
+.aboutH2 {
+    margin-bottom: 40px;
+    font-family: 'EB Garamond', serif;
+}
+
+
+#meditation{
+    display: flex;
+    justify-content: center;
+    /* position: relative; */
+}
+.medImgCont {
+    width:-webkit-fill-available ;
+    /* height: 100vh; */
+    /* position: absolute; */
+    /* position: relative; */
+}
+.medBack {
+   width: -webkit-fill-available;
+}
+.medTexts {
+    /* font-family: 'EB Garamond', serif; */
+
+    margin-top: 66px;
+    position: absolute;
+}
+h3 {
+    color: #000;
+    font-family: EB Garamond;
+    font-size: 29px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: 100px;
+    width: 394px;
+}
+.medTexts p {
+    width: 396px;
+    text-align: left;
+    height: 196px;
+    padding: 37px;
+    background: #F9EAE3;
+    margin-top: 22px;
+    margin-bottom: 21px;
+    border-radius: 20px;
+}
+.medTextAndImg {
+    display: flex;
+    width: 1000px;
+    /* align-items: baseline; */
+    justify-content: space-around;
+}
+.medTextAndImg img {
+    width: 210px;
+
+}
+.explore {
+    border-radius: 102px;
+    background: #F9EAE3;
+    /* width: 174px; */
+    /* height: 50px; */
+    padding: 10px;
+    /* margin-top: 7px; */
+    color: #000;
+    font-family: 'EB Garamond', serif;
+    text-decoration: none;
+}
+
+
+#breath {
+    background: #FEFCEF;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top:30px;
+
+}
+
+#breath p {
+    color: #000;
+    font-family: 'EB Garamond', serif;
+    /* font-size: 18px; */
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 500px;
+    padding: 30px;
+    border-radius: 20px;
+    /* height: 410px; */
+    flex-shrink: 0;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    background: #F9EAE3;
+}
