@@ -3,197 +3,138 @@
     margin: 0;
     box-sizing: border-box;
 }
-@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700;1,800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,300;1,400;1,500;1,700;1,900&display=swap');
 
 header {
+    margin-top: 30px;
     display: flex;
     justify-content: space-around;
-    width: 100wh;
-    height: 40px;
-    background-color: #EDD2C7;
-    padding-top: 7px;
 }
-.menu {
-    width: 22px;
-    height: 22px;
+.siteName {
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
 }
-.account {
-    width: 27px;
-    height: 25px;
+.exploreSite img {
+    width: 20px;
+    height: 15px;
+
 }
-header a {
-    margin-right: 55px;
-    color:white;
-    font-family: 'EB Garamond', serif;
-    font-size: 18px;
+.agroup {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    margin-left: 15px;
+    color: black;
+    text-decoration: none;
+}
+.learn {
+    border: 1px solid black;
+    padding: 10px;
+    margin-left: 20px;
+    color: black;
+    text-decoration: none;
+}
+.sign {
+    border: 1px solid white;
+    padding: 13px;
+    margin-left: 10px;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+}
+hr{
+    margin-top: 20px;
 }
 
 .first {
-    width: 100%;
-    height: 100vh;
-    position: relative;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    background: #FEFCEF;
+    justify-content: space-around;
+    margin-top: 50px;
+    padding-bottom: 100px;
 }
 h1 {
-    color: #FF6089; 
-    font-size: 33px;
-    font-family: 'EB Garamond', serif;
-    width: 326px;
-    margin-bottom: 20px;
+    width: 725px;
+    margin-bottom: 50px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 800;
+    font-size: 68px;
 }
-.signUp {
-    width: 140px;
-    height: 45px;
-    border-radius: 15px;
-    background: #D9D9D9;
-    color: #FF6089; 
-    border: none;
-    cursor: pointer;
-    font-style: bold;
-    font-family: 'EB Garamond', serif;
+.texts p{
+    width: 850px;
+    font-size: 35px;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 40px;
 }
-.mainTexts {
-    position: absolute;
-    margin-left: 20px;
+.discover {
+    border: 1px solid white;
+    padding: 13px;
+    font-size: 24px;
+    background-color: black;
+    color: white;
+    text-decoration: none;
 }
-.purpose {
-    width: 390px;
-    font-family: 'EB Garamond', serif;
-    color: rgb(120, 116, 116); 
-    background-color: #D9D9D9;
-    padding: 15px;
-    border-radius: 20px;
-    margin-bottom: 20px;
-
-}
-
-
-#aboutUs{
-    background: #FEFCEF;
+#second{
     display: flex;
-    flex-direction: column;
-    /* font-size: 50px; */
-    font-family: 'EB Garamond', serif;
+    justify-content: space-around;
+    margin-top: 100px;
     padding-bottom: 100px;
-    /* justify-content: ; */
-    align-items: center;
-
 }
-.aboutContainer {
+.secondSmallCont {
     display: flex;
     justify-content: space-between;
-    margin: 0px 20px 0px 20px;
-    width: -webkit-fill-available;
+    
 }
-.about1, .about2 {
-    width: 378px;
-    height: fit-content;
-    background-color: #D9D9D9;
-    padding: 50px;
-    border-radius: 101px 0px;
-    font-family: 'EB Garamond', serif;
-
-}
-.about1 h3, .about2 h3 {
-    margin-bottom: 10px;
-    font-family: 'EB Garamond', serif;
-
-}
-.aboutH2 {
+.secondSmallCont p {
+    width: 313px;
+    font-size: 22px;
+    font-family: 'Roboto', sans-serif;
     margin-bottom: 40px;
-    font-family: 'EB Garamond', serif;
 }
-
-
-#meditation{
-    display: flex;
-    justify-content: center;
-    /* position: relative; */
+.secondSmallCont h3 {
+    font-size: 30px;
+    margin-bottom: 10px;
 }
-.medImgCont {
-    width:-webkit-fill-available ;
-    /* height: 100vh; */
-    /* position: absolute; */
-    /* position: relative; */
+#second img {
+    width: 500px;
+    height: 516px;
 }
-.medBack {
-   width: -webkit-fill-available;
+.secondTexts h2{
+    width: 725px;
+    margin-bottom: 35px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 800;
+    font-size: 47px;
 }
-.medTexts {
-    /* font-family: 'EB Garamond', serif; */
-
-    margin-top: 66px;
-    position: absolute;
+.secondP {
+    width: 850px;
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 40px;
 }
-h3 {
-    color: #000;
-    font-family: EB Garamond;
-    font-size: 29px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    margin-left: 100px;
-    width: 394px;
-}
-.medTexts p {
-    width: 396px;
-    text-align: left;
-    height: 196px;
-    padding: 37px;
-    background: #F9EAE3;
-    margin-top: 22px;
-    margin-bottom: 21px;
-    border-radius: 20px;
-}
-.medTextAndImg {
-    display: flex;
-    width: 1000px;
-    /* align-items: baseline; */
-    justify-content: space-around;
-}
-.medTextAndImg img {
-    width: 210px;
-
-}
-.explore {
-    border-radius: 102px;
-    background: #F9EAE3;
-    /* width: 174px; */
-    /* height: 50px; */
+.meditationStart, .breathStart {
+    border: 1px solid black;
     padding: 10px;
-    /* margin-top: 7px; */
-    color: #000;
-    font-family: 'EB Garamond', serif;
+    font-size: 19px;
+    /* margin-left: 20px; */
+    color: black;
     text-decoration: none;
 }
 
 
-#breath {
-    background: #FEFCEF;
-    position: relative;
+#third {
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding-top:30px;
-
+    justify-content: space-around;
+    margin-top: 100px;
 }
-
-#breath p {
-    color: #000;
-    font-family: 'EB Garamond', serif;
-    /* font-size: 18px; */
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    width: 500px;
-    padding: 30px;
-    border-radius: 20px;
-    /* height: 410px; */
-    flex-shrink: 0;
-    margin-bottom: 20px;
-    margin-top: 20px;
-    background: #F9EAE3;
+.thirdP {
+    width: 450px;
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 40px;
+}
+.thirdH2 {
+    width: 725px;
+    margin-bottom: 35px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 800;
+    font-size: 47px;
 }
