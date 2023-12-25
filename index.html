@@ -4,33 +4,68 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Feel Safe</title>
+    <link rel="icon" type="image/x-icon" href="/images/logo.jpg">
+    <title>Peacefy</title>
 </head>
 <body>
-    <header>
-        <div class="siteName">
-            <h3 class="siteName">FeelSafe</h3>
-        </div>
-        <div class="menu">
-            <a class="agroup" href="#meditation">Meditation</a>
-            <a class="agroup" href="#breath">Breath Technique</a>
-            <a class="agroup" href="#music">Calm Music</a>
-            <button class="exploreSite">
-                <img src="./images/downarrow.png" alt="explore" >
-            </button>
-            <a href="#about" class="learn">Learn More</a>
-            <a href="#sign" class="sign">Sign Up</a>
-        </div>
-    </header>
-    <hr>
+    <header class="header">
+        <nav class="nav container">
+            <div class="nav__data">
+               <a href="#" class="nav__logo">
+                  <i class="ri-planet-line"></i> Peacefy
+               </a>
+               
+               <div class="nav__toggle" id="nav-toggle">
+                  <i class="ri-menu-line nav__burger"></i>
+                  <i class="ri-close-line nav__close"></i>
+               </div>
+            </div>
+
+            <div class="nav__menu" id="nav-menu">
+               <ul class="nav__list">
+                  <li><a href="#" class="nav__link">Home</a></li>
+
+                  <li><a href="#second" class="nav__link">Meditation</a></li>
+                  <li><a href="#forth" class="nav__link">Diary</a></li>
+                  <li><a href="#contact" class="nav__link">Contact</a></li>
+                  <li class="dropdown__item">
+                     <div class="nav__link">
+                        Explore <i class="ri-arrow-down-s-line dropdown__arrow"></i>
+                     </div>
+
+                     <ul class="dropdown__menu">
+                        <li>
+                           <a href="#gallery" class="dropdown__link">
+                              <i class="ri-pie-chart-line"></i> Gallery
+                           </a>                          
+                        </li>
+                        <li>
+                           <a href="#third" class="dropdown__link">
+                              <i class="ri-arrow-up-down-line"></i> Breath Techniques
+                           </a>
+                        </li>
+                        <li>
+                            <a href="#faq" class="dropdown__link">
+                                <i class="ri-bar-chart-line">FAQ </i> 
+                            </a>
+                           
+                        </li>
+                     </ul>
+                  </li>
+               </ul>
+            </div>
+         </nav>
+      </header>
     <main>
         <div class="first">
             <div class="texts">
-                <h1>Find Calmness and Peace at FeelSafe</h1>
-                <p>Welcome to FeelSafe, a calming space designed to help individuals with anxiety find solace. Explore our features including meditation, breath techniques, soothing musitc and etc to restore tranquility to your life.</p>
-                <a href="#about" class="discover"> Discover</a>
+                <h1>Find Calmness and Peace at <span>Peacefy</span></h1>
+                
             </div>
-             <img src="./images/firstback.jpg" alt="justpic">
+            <div class="imgContainer1">
+
+                <img src="./images/mainBack2.PNG" alt="justpic">
+            </div>
         </div>
         <div id="second">
             <div class="secondTexts">
@@ -48,24 +83,121 @@
                         </div>
                 </div>
                 <div class="secondButt">
-                    <button class="meditationStart">Start</button>
+                    <a href="meditation.html" class="meditationStart">Start</a>
+                    <!-- <button class="meditationStart">Start</button> -->
                 </div>  
             </div>
-            <img src="./images/meditation.jpg" alt="meditation">
         </div>
         <div id="third">
-            <img src="./images/breath.jpg" alt="breathing">
+            <img src="./images/breathTech.jpg" alt="breathing">
             <div class="third1">
                 <h2 class="thirdH2">Breathing Exercises: Instant Relief for Anxiety Attacks</h2>
                 <p class="thirdP">
                     Our breathing exercises feature provides simple techniques to help manage anxiety in the moment. By focusing on your breath, you can calm your mind and body, reducing the intensity of anxiety attacks.
                 </p>
-                <button class="breathStart"> Start</button>
+                <button class="breathStart">
+                    <a href="breath.html">Start</a> </button>
             </div>
         </div>
-        <div class="forth">
-            
+        <div id="forth">
+           
+            <div class="forthTexts">
+                <h3>Keep Track of Your Thoughts and Progress</h3>
+                <p class="forthP">
+                    At Peacefy, we believe in the power of self-expression as a tool for managing anxiety and fostering emotional well-being. Our diary feature provides a safe and private space for you to embark on a journey of self-discovery, reflection, and healing.
+                </p>
+                <div class="forthFunct">
+                    <div class="funct1">
+                        <h4>Therapeutic Release: </h4>
+                        <p>Pour your thoughts onto the digital pages, releasing the weight of worries and anxieties.</p>
+                    </div>
+                    <hr >
+                    <div class="funct2">
+                        <h4>
+                            Emotional Awareness:
+                        </h4>
+                        <p>Gain a deeper understanding of your emotions as you articulate your daily experiences. </p>
+                    </div>
+                    <hr>
+
+                    <div class="funct3">
+                        <h4>
+                            Goal Setting and Reflection:
+                        </h4>
+                        <p>Use your diary as a space to set intentions and reflect on your progress.</p>
+                    </div>
+                </div>
+                <a href="diary.html" class="forthBut">Try it</a>
+            </div>
         </div>
+        
+        <div class="seven">
+            <h3>Track Your Progress and Personalize</h3>
+            <p>Sign up for an account to access meditation, breath techniques, alming music, a diary, and more.</p>
+            <div class="sevenButtons">
+                <a href="sign.html" class="sign"> Sign Up</a>
+                <!-- <button class="learn">Learn More</button> -->
+            </div>
+        </div>
+        <div id="faq">
+           <h3 class="faqMainh3">FAQ</h3> 
+           <p>
+            Find answers to common questions about anxiety management and our services.
+           </p>
+           <div class="details">
+
+               <hr>
+               <details>
+                <summary>How can i manage anxiety?</summary>
+                <p> Managing anxiety can be achieved through various techniques such as meditation, deep breathing exercises, and listening to calming music. It's important to find what works best for you and incorporate it into your daily routine. </p>
+              </details><hr>
+              <details>
+                <summary>What services do you offer?</summary>
+                <p>We offer a range of services to help individuals manage their anxiety, including meditation sessions, breath techniques, a diary for noting thoughts and feelings, and a collection of random calming pictures.</p>
+              </details><hr>
+              <details>
+                <summary>Is FeelSafe free to use? </summary>
+                <p>Yes, FeelSafe is completely free to use. We believe that everyone should have access to tools and resources for managing anxiety without any financial barriers.</p>
+              </details><hr>
+              <details>
+                <summary>How can I contact you? </summary>
+                <p> If you have any further questions or need assistance, please feel free to reach out to us. You can contact us through the provided form or send us an email at support@feelsafe.com </p>
+              </details><hr>
+              <details>
+                <summary> Can I trust FeelSafe? </summary>
+                <p> FeelSafe takes your privacy and security seriously. We have implemented strict measures to ensure the safety of your personal information and provide a secure platform for anxiety management. </p>
+              </details><hr>
+           </div>
+           <h3 class="faqSecondh3">Still have questions?</h3>
+           <p>Contact us for more information or support.</p>
+           <button class="learn">Contact</button>
+        </div>
+        <div id="contact">
+          
+           <div class="contactTexts">
+            <h3>Contact Support</h3>
+            <p>If you have any questions or need asistance, please reach out to our support team.</p>
+            <div class="infos">
+
+                <div class="contact1">
+                    
+                    <p><img src="./images/mail (1).png" alt="mail" class="mail"> Email</p>
+                    <p>Send us an email today.</p>
+                    <p>peacefy@gmail.com</p>
+                </div>
+                <div class="contact2">
+                    
+                    <p><img src="./images/telephone (1).png" alt="phone"> Phone</p>
+                    <p>Call us for assistance</p>
+                    <p>(+994)773016466</p>
+                </div>
+            </div>
+           </div>
+           <div class="imgcont">
+
+              
+           </div>
+        </div> 
     </main>
     <script src="app.js"></script>
 </body>
