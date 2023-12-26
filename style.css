@@ -376,6 +376,11 @@ span {
   background-color: #fff;
   color: #443B7E;
   text-decoration: none;
+  transition: transform 0.3s ease;
+}
+
+.meditationStart:hover {
+  transform: scale(1.1);
 }
  .breathStart,  .fifthButt, .sixButt {
     border: 1px solid #443B7E;
@@ -957,5 +962,9 @@ summary {
   .contactTexts h3 {
     width: 800px;
     font-size: 40px;
+  }
+  .imgcont img {
+    width: 320px;
+    margin-top: 38px;
   }
 }
