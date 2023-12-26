@@ -1,19 +1,14 @@
+let h1 = document.querySelector("h1");
 
-const showMenu = (toggleId, navId) =>{
+const showMenu = (toggleId, navId) => {
     const toggle = document.getElementById(toggleId),
-          nav = document.getElementById(navId)
+          nav = document.getElementById(navId);
  
-    toggle.addEventListener('click', () =>{
-        // Add show-menu class to nav menu
-        nav.classList.toggle('show-menu')
- 
-        // Add show-icon to show and hide the menu icon
-        toggle.classList.toggle('show-icon')
-    })
- }
- 
- showMenu('nav-toggle','nav-menu')
+    toggle.addEventListener('click', () => {
+        nav.classList.toggle('show-menu');
+        toggle.classList.toggle('show-icon');
+        h1.style.display = h1.style.display === 'none' ? 'block' : 'none';
+    });
+};
 
-
-
-
+showMenu('nav-toggle', 'nav-menu');

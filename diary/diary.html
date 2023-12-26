@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Diary</title>
+    <link rel="icon" type="image/x-icon" href="/images/logo.jpg">
+
+    <link rel="stylesheet" href="diary.css">
+</head>
+<body>
+    <header>
+        <h2 class="diaryH2">Your Diary</h2>
+        <input type="text" name="DiarySearch" id="search" placeholder="Search...">
+        <a href="../index.html">Home</a>
+    </header>
+    <section>
+        <div class="writing">
+
+            <div class="diaryContainer">
+                <p>Share your thoughts and feelings about your day.</p>
+                <form id="diaryForm">
+                <input class="noteName" type="text" name="name" placeholder="Name of your Note" id="name">
+                <textarea name="diary" id="diary" cols="70" rows="20"></textarea>
+                <div class="db">
+                    <button class="da">Add Image</button>
+                    <button type="submit" class="ds" >Save</button>
+                </div>
+            </form>
+            </div>
+            <img src="../images/diaryM1.jpg" class="diaryM" alt="diary">
+        </div>
+        <div class="storing">
+            <h3>Your Notes</h3>
+            <div class="notesCont">
+
+            </div>
+        </div>
+    </section>
+<script src="diary.js"></script>
+</body>
+</html>

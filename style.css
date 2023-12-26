@@ -442,17 +442,36 @@ span {
     margin-bottom: 35px;
     font-family: 'Roboto', sans-serif;
     font-weight: 800;
+    color: rgb(102, 104, 238) ;
     font-size: 47px;
 }
 .forthP, .fifthP{
     width: 1000px;
-    font-size: 30px;
+    font-size: 27px;
     font-family: 'Roboto', sans-serif;
     margin-bottom: 40px;  
 }
 .forthFunct {
 display: flex;
-margin-bottom: 15px;
+margin-bottom: 25px;
+}
+.forthFunct div {
+  padding: 15px;
+  border-radius: 20px;
+  margin-left: 20px;
+  transition: transform 0.3s ease;
+}
+.forthFunct div:hover {
+  transform: scale(1.1);
+}
+.funct1 {
+  background-color: rgb(102, 104, 238) ;
+}
+.funct2 {
+  background-color: rgb(131, 133, 245) ;
+}
+.funct3 {
+  background-color: rgb(161, 162, 240) ;;
 }
 .forthFunct h4 {
   width: fit-content;
@@ -460,14 +479,7 @@ margin-bottom: 15px;
 .forthFunct  p{
   width: 325px;
 }
-.forthFunct hr {
-  margin-right: 17px;
-  width: 3px;
-  /* height: 77px; */
-  outline: none;
-  border: none;
-  background-color: white;
-}
+
 
 #fifth {
     display: flex;
@@ -546,11 +558,19 @@ margin-bottom: 15px;
     margin-bottom: 40px;
 
 }
-.sevenButtons .sign {
+.sevenButtons  {
   border: none;
   border-radius: 30px;
   background-color: #443B7D;
   color: white;
+  font-size: 19px;
+  padding: 10px;
+}
+.sign{
+  border: none;
+  border-radius: 30px;
+  background-color: #ffffff;
+  color: #443B7D;
   font-size: 19px;
   padding: 10px;
 }
@@ -620,8 +640,8 @@ summary {
     font-family: 'Roboto', sans-serif;
     padding: 20px;
     justify-content: space-around;
-    background-color :#443B7D;
-    color: white;
+    background-color :#ffffff;
+    color: #443B7D;
 }
 .contactTexts {
     /* position: absolute; */
@@ -635,7 +655,7 @@ summary {
     font-family: 'Roboto', sans-serif;
     font-weight: 800;
     font-size: 68px;
-    color: rgb(206, 204, 204);
+    color: #443B7D;
 }
 .infos {
   display: flex;
@@ -647,18 +667,11 @@ summary {
   margin-right: 20px;
 }
 
-.contact1 img {
-    width: 20px;
-    height: 20px;
-}
-.contact2 img {
-    width: 20px;
-    height: 20px;
-}
-.contactImg {
+
+/* .contactImg {
     width: 500px;
     height: 440px
-}
+} */
 
 
 @media only screen and (min-width: 320px) and (max-width: 480px) {
@@ -724,6 +737,10 @@ summary {
     width: 320px;
     font-size: 30px;
   }
+  .imgcont img {
+    width: 200px;
+    margin-top: 38px;
+  }
 }
 @media only screen and (min-width: 481px) and (max-width: 768px) {
   h1 {
@@ -785,8 +802,16 @@ summary {
     width: 360px;
   }
   .contactTexts h3 {
-    width: 360px;
+    width: 260px;
     font-size: 30px;
+  }
+  .imgcont img {
+    width: 220px;
+    margin-top: 38px;
+  }
+  .infos {
+    display: flex;
+    flex-direction: column;
   }
 }
 @media only screen and (min-width: 769px) and (max-width: 1024px) {
@@ -809,16 +834,17 @@ summary {
     font-size: 19px;
   }
   .thirdH2 {
-    width: 481px;
-    font-size: 32px;
-  }
-  #third img {
     width: 380px;
+    font-size: 27px;
+}
+  
+  #third img {
+    width: 360px;
     height: 440px;
   }
   .thirdP {
-    width: 480px;
-    font-size: 25px;
+    width: 361px;
+    font-size: 23px;
   }
   .forthP {
     width: 480px;
@@ -836,7 +862,7 @@ summary {
     font-size: 40px;
   }
   .seven p {
-    width: 800px;
+    width: 750px;
     font-size: 25px
   }
   #faq p {
@@ -855,6 +881,15 @@ summary {
     width: 480px;
     font-size: 40px;
   }
+  .infos {
+    display: flex;
+    flex-direction: column;
+  }
+  .imgcont img {
+    width: 280px;
+    margin-top: 38px;
+  }
+
 }
 
 @media only screen and (min-width: 1025px) and (max-width: 1450px) {
